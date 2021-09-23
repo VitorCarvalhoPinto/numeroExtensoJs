@@ -1,0 +1,17 @@
+body {
+  background-color: #383838;
+}
+
+body .conteudo {
+  width: 50%;
+  margin: 300px;
+}
+
+body .conteudo input {
+  margin-bottom: 10px;
+}
+
+body .conteudo button {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
