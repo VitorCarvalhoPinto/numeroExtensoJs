@@ -9,7 +9,7 @@ export class Centena{
         if(numero == '100')
             this.res = cem
         else if(numero.substring(0,1) == '0')
-            this.res = dezena.res
+            this.res = ' e ' + dezena.res
         else
             this.res = numArray[numero.substring(0,1) -1] + ' e ' + dezena.res
 
