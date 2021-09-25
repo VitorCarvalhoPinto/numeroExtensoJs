@@ -1,6 +1,5 @@
 export class Numero{
     constructor(numero){
-        let resultado = ''
         this.res = ''
         this.numero = numero
         switch(numero.length)
@@ -28,8 +27,8 @@ export class Numero{
     }
 
     unidade(numero){
-        let numArrayUnidade = ['zero','um','dois','tres','quatro','cinco','seis','sete','oito','nove']
-        return numArrayUnidade[numero] 
+        let numArray = ['zero','um','dois','tres','quatro','cinco','seis','sete','oito','nove']
+        return numArray[numero] 
     }
     
     dezena(numero){
