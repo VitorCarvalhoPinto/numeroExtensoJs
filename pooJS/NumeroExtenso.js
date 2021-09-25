@@ -4,6 +4,6 @@ let botao = document.querySelector('#botao')
 botao.addEventListener('click', function(){
     var numero = document.querySelector('#numero').value
     var numeroExtenso = new Escrever(numero)
-    console.log(numeroExtenso)
-    resultado.value = numeroExtenso._resultado.trim()
+    console.log(numeroExtenso.res)
+    resultado.value = numeroExtenso.res.trim()
 })

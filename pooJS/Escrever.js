@@ -1,12 +1,14 @@
-import { CriarExtenso } from "./criarExtenso.js"
+import { Numero } from "./Numero.js"
 
-export class Escrever{
+export class Escrever extends Numero{
 
     constructor(numero){
-        this._numero = numero
-        let resultado = new CriarExtenso(numero)
-        resultado.resultado = resultado.resultado.trim().charAt(0).toUpperCase() + resultado.resultado.trim().slice(1)
-        this._resultado = resultado.resultado
+        super(numero)
+
+        this.res = this.res.trim().charAt(0).toUpperCase() + this.res.trim().slice(1)
+        this._resultado = this.res
+
+
     }
 
 
